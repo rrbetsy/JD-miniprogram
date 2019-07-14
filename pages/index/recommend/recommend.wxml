@@ -1,0 +1,18 @@
+<!-- recommend.wxml -->
+<view class="recommend">
+  <image class="courtyard-img" src="//img11.360buyimg.com/jdphoto/jfs/t1/31601/22/15554/14040/5cc2a86fEbdb1098b/88174b36f85283b6.png" />
+  <view class="recommonend-wrap">
+    <view class="recommonend-item" wx:for="{{recommendItems}}" wx:key="recommendItems">
+      <image  class="img" src="{{item.imgUrl}}" />
+      <p class="main-title">{{item.title}}</p>
+      <view class="item-bottom">
+        <view class="price">
+          <view class="i">￥</view>
+          <view class="span">{{item.price}}</view>
+        </view>
+        <view class="tag">{{item.tag}}</view>
+        <view href="void(0)" class="look">看相似</view>
+      </view>
+    </view>
+  </view>
+</view>

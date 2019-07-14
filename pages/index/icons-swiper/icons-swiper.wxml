@@ -1,0 +1,18 @@
+<!-- icons-swiper.wxml -->
+<view class="icons-swiper">
+  <view>
+    <image class="image"src="//m.360buyimg.com/mobilecms/jfs/t1/81999/26/4465/185002/5d2822d0Ee5897c67/dd1b623aa904b1d0.gif" />
+  </view>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" interval="{{interval}}" duration="{{duration}}">
+    <view wx:for="{{iconInfo}}" wx:key="iconInfo">
+      <swiper-item>
+        <view class="icon-list-wrap">
+          <view class="icon-wrap" wx:for="{{item}}" wx:key="item">
+            <image class="img" src="{{item.iconImg}}" />
+            <view class="icon-name">{{item.iconName}}</view>
+          </view>
+        </view>
+      </swiper-item>
+    </view>
+  </swiper>
+</view>

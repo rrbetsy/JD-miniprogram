@@ -1,0 +1,10 @@
+<!-- banner-swiper.wxml -->
+<view class="banner-swiper">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" interval="{{interval}}" duration="{{duration}}">
+    <view wx:for="{{imgUrls}}" wx:key="imgUrls">
+      <swiper-item>
+        <image class="img" src="{{item}}" />
+      </swiper-item>
+    </view>
+  </swiper>
+</view>

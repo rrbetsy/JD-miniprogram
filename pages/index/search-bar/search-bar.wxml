@@ -1,0 +1,14 @@
+<!-- search-bar.wxml -->
+<view class="search-bar">
+  <view class="to-category" bindtap="toCategory">
+    <view class="line"></view>
+  </view>
+  <view class="search">
+    <view class="search-text">JD</view>
+    <view class="search-icon" bindtap="clickHandle"></view>
+    <view class="input">
+      <input placeholder="无线鼠标" bindtap="clickHandle"></input>
+    </view>
+  </view>
+  <view class="login" bindtap="goLogin">登录</view>
+</view>

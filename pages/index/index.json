@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "search-bar": "./search-bar/search-bar",
+    "banner-swiper": "./banner-swiper/banner-swiper",
+    "new-user": "./new-user/new-user",
+    "icons-swiper": "./icons-swiper/icons-swiper",
+    "courtyard": "./courtyard/courtyard",
+    "everyday": "./everyday/everyday",
+    "recommend": "./recommend/recommend"
+  }
+}

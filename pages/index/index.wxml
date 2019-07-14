@@ -1,0 +1,9 @@
+<view class="index">
+  <search-bar></search-bar>
+  <banner-swiper></banner-swiper>
+  <icons-swiper></icons-swiper>
+  <new-user></new-user>
+  <courtyard></courtyard>
+  <everyday></everyday>
+  <recommend></recommend>
+</view>

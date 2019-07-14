@@ -1,0 +1,64 @@
+<!-- everyday.wxml -->
+<view class="everyday">
+  <image class="courtyard-img" src="//m.360buyimg.com/mobilecms/s750x80_jfs/t1/39486/28/9224/23804/5d09048aE5127de40/eec779757a34e94d.png!q70.jpg.dpg" />
+  <view class="two-cols">
+    <view class="text-pic four-cols right-bottom">
+      <view class="text" style="background: linear-gradient(90deg, #FF2A2A,#F139D2);">免息星球</view>
+      <view class="ph">白条免息购</view>
+      <view class="pictures">
+        <image class="img" src="//m.360buyimg.com/n1/s150x150_jfs/t29566/227/1464891645/10350/a5b133e2/5ce20cdcNd9cdd972.jpg!q70.jpg.dpg" />
+      </view>
+    </view>
+    <view class="text-pic four-cols right-bottom left-bottom">
+      <view class="text" style="background: linear-gradient(90deg, #FE8537,#F02B2B);">闪购</view>
+      <view class="ph">品牌特卖</view>
+      <view class="pictures">
+        <image class="img" src="//m.360buyimg.com/n1/s150x150_jfs/t1/31939/26/15210/430210/5cc178d5E772548d0/ec09ba8ca763827c.png!q70.jpg.dpg" />
+      </view>
+    </view>
+    <view class="text-pic four-cols right-bottom left-bottom">
+      <view class="text" style="background: linear-gradient(90deg, #FF765C,#FF23B3);">品牌秒杀</view>
+      <view class="ph">低价抢大牌</view>
+      <view class="pictures">
+        <image class="img" src="//m.360buyimg.com/n1/s150x150_jfs/t1/39301/38/5944/432882/5ccfd851Eadae798a/6a68e72271adab2a.png!q70.jpg.dpg" />
+      </view>
+    </view>
+    <view class="text-pic four-cols right-bottom left-bottom">
+      <view class="text" style="background: linear-gradient(90deg, #FF2A00,#FF00AF);">京东直播</view>
+      <view class="ph">好货即可买</view>
+      <view class="pictures">
+        <image class="img" src="//m.360buyimg.com/mobilecms/s150x150_jfs/t1/76908/18/801/66093/5cef9622E297944e8/8b62a5e086c78d1c.png!q70.jpg.dpg" />
+      </view>
+    </view>
+  </view>
+  <view class="two-cols">
+    <view class="text-pic four-cols">
+      <view class="text" style="background: linear-gradient(90deg, #D400FF,#FF320A);">排行榜</view>
+      <view class="ph">热销推荐</view>
+      <view class="pictures">
+        <image class="img" src="//m.360buyimg.com/mobilecms/s150x150_jfs/t1/56939/39/1210/59272/5cefa52dE2f70588a/3174a20e743edd49.png!q70.jpg.dpg" />
+      </view>
+    </view>
+    <view class="text-pic four-cols left-bottom">
+      <view class="text" style="background: linear-gradient(90deg, #00C2AB,#3E94FF);">拍拍好物</view>
+      <view class="ph">ipone 5折起</view>
+      <view class="pictures">
+        <image class="img" src="//m.360buyimg.com/mobilecms/s150x150_jfs/t1/76945/35/760/26244/5cef9705E501242ee/c56b89c0946438ef.jpg!q70.jpg.dpg" />
+      </view>
+    </view>
+    <view class="text-pic four-cols left-bottom">
+      <view class="text" style="background: linear-gradient(90deg, #FF765C,#FF23B3);">新品首发</view>
+      <view class="ph">华为P30</view>
+      <view class="pictures">
+        <image class="img" src="//m.360buyimg.com/mobilecms/s150x150_jfs/t1/16097/29/12819/62040/5c9add4cE1b45f5ea/e48679e904c29d30.jpg!q70.jpg.dpg" />
+      </view>
+    </view>
+    <view class="text-pic four-cols left-bottom">
+      <view class="text" style="background: linear-gradient(90deg, #2AD396,#85BB1F);">发现好货</view>
+      <view class="ph">教你买买买</view>
+      <view class="pictures">
+        <image class="img" src="//m.360buyimg.com/mobilecms/s150x150_jfs/t1/50174/30/1230/9784/5cef98bfE318f8d24/4720dc4079dd568b.jpg!q70.jpg.dpg" />
+      </view>
+    </view>
+  </view>
+</view>
